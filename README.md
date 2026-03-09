@@ -1,10 +1,10 @@
-# Protheus Docker 12.1.2410
+# Protheus Docker 12.1.2510
 
-Imagem Docker para execução do **TOTVS Protheus 12** (AppServer), versão 12.1.2410, em ambiente containerizado.
+Imagem Docker para execução do **TOTVS Protheus 12** (AppServer), versão 12.1.2510, em ambiente containerizado.
 
 ## Descrição
 
-Este projeto monta uma imagem Docker Protheus 12.1.2410, sobre Oracle Linux 9. A imagem é útil para ambientes de desenvolvimento, testes ou orquestração (Kubernetes, Docker Compose, etc.).
+Este projeto monta uma imagem Docker Protheus 12.1.2510, sobre Oracle Linux 9. A imagem é útil para ambientes de desenvolvimento, testes ou orquestração (Kubernetes, Docker Compose, etc.).
 
 ### Características
 
@@ -37,7 +37,7 @@ make release_latest
 
 Gera as tags:
 
-- `feliperaposo/protheus:p12.1.2410`
+- `feliperaposo/protheus:p12.1.2510`
 - `feliperaposo/protheus:latest`
 
 ## Estrutura interna (referência)
