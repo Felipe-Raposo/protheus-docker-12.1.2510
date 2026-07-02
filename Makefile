@@ -7,7 +7,7 @@ VERSION := p12.1.2510
 .PHONY: build release release_latest
 
 build:
-	docker image build -t $(NAME):$(VERSION) .
+	docker image build --platform=linux/amd64 -t $(NAME):$(VERSION) .
 
 release: build
 	docker image push $(NAME):$(VERSION)
