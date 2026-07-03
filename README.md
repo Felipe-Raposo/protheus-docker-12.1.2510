@@ -8,7 +8,7 @@ Este projeto monta uma imagem Docker Protheus 12.1.2510, sobre Oracle Linux 9. A
 
 ### Características
 
-- **Base:** feliperaposo/protheus-base:24 (Onça Preta)
+- **Base:** feliperaposo/protheus-docker-base:24 (Onça Preta)
 - **Protheus:** AppServer (porta TCP 1234)
 - **REST API:** Habilitada na porta 8080 (`/api`)
 - **HTTP Server:** Porta 9995 para conteúdo estático (`/rest`)
